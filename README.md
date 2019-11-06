@@ -47,3 +47,100 @@ Fork this GitHub repository, and just copy and paste your repository link [here]
 * .filename.txt
 
 ## Questions
+
+### 1. ASCII Art
+####Generate the following ASCII art:
+```
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
+```
+
+
+### 2. Odious Numbers
+#### An odious number is a non-negative number that has an odd number of 1s in its binary expansion. Print all the odious numbers from 0 to 50 inclusive, with each number on a new line.
+
+Example Output: 
+```
+1
+2
+4
+7
+8
+...
+50
+```
+
+
+### 3. Morse Code
+#### Write a decoder for Morse Code messages. Letters are separated by one space and words are separated by two spaces. Only A-Z and 0-9 will be included.
+
+Example Input:
+```
+.... . .-.. .-.. ---  .-- --- .-. .-.. -..
+```
+
+Example Output:
+```
+HELLO WORLD
+```
+
+
+### 4. Bacon's Cipher
+#### Bacon’s Cipher tries to hide a word in another message, using the following encoding (B means a letter is capitalized, and A means it is lowercase) Write a decoder for Bacon's Ciper.
+
+Letter  Encoding:
+```
+A       AAAAA			B       AAAAB		C       AAABA
+D       AAABB			E       AABAA		F       AABAB
+G       AABBA			H       AABBB		I       ABAAA
+J       ABAAB			K       ABABA		L       ABABB
+M       ABBAA			N       ABBAB		O       ABBBA
+P       ABBBB			Q       BAAAA		R       BAAAB
+S       BAABA			T       BAABB		U       BABAA
+V       BABAB			W       BABBA		X       BABBB
+Y       BBAAA			Z       BBAAB
+```
+
+Example Input:
+```
+thE QUicK broWn FOx JuMPs OVEr ThE LazY DOgS, gaMbOlINg in TH
+```
+
+Example Output:
+```
+HELLOWORLD
+```
+
+
+### 5. Reversed Numbers
+#### Given two numbers, return the maximum of the reverse of those numbers. Numbers may positive or negative, and may have a decimal point.
+
+Example Input:
+```
+133 978
+14.7 81.2
+-210 -121
+```
+
+Example Output:
+```
+879
+7.41
+-012
+```
