@@ -49,7 +49,7 @@ Fork this GitHub repository, and just copy and paste your repository link [here]
 ## Questions
 
 ### 1. ASCII Art
-####Generate the following ASCII art:
+#### Generate the following ASCII art:
 ```
 _|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
 ___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
